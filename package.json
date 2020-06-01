@@ -19,6 +19,10 @@
     "^.+\\.[t|j]sx?$": "babel-jest"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html"
+    ]
   }
 }
